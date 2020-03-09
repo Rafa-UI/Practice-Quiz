@@ -222,7 +222,7 @@ const questions = [
       { text: 'A. Aristotle', correct: false },
       { text: 'B. Francesco Redi', correct: true },
       { text: 'C. Lazzaro Spallanzani', correct: false },
-      { text: 'D. Van Leeuwenhoek', correct: true },
+      { text: 'D. Van Leeuwenhoek', correct: false },
     ]
   },
   {
