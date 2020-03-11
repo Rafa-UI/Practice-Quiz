@@ -286,8 +286,8 @@ const questions = [
   {
     question: 'Which of the following does not bind to the 50S ribosomal subunit?',
     answers: [
-      { text: 'A. Tetracyclines', correct: false },
-      { text: 'B. Chloramphenicol', correct: true },
+      { text: 'A. Tetracyclines', correct: true },
+      { text: 'B. Chloramphenicol', correct: false},
       { text: 'C. Macrolides', correct: false },
       { text: 'D. Lincosamides', correct: false }
     ]
