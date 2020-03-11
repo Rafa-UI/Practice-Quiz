@@ -77,510 +77,425 @@ function clearStatusClass(element) {
 }
 
 const questions = [
-  {
-    question: 'What is metabolism?',
+{
+    question: 'Which of the following best describes bacterial growth during the log phase of the growth curve?',
     answers: [
-      { text: 'A. The buildup and breakdown of nutrients within a cell.', correct: true },
-      { text: 'B. When the body engages in Homeostasis', correct: false },
-      { text: 'C. When the body stores energy in Fat Cells', correct: false },
-      { text: 'D. When your body needs to synthesize', correct: false }
+      { text: 'A. Linear', correct: false },
+      { text: 'B. Stationary', correct: false },
+      { text: 'C. Exponential', correct: true },
+      { text: 'D. S-shaped', correct: false }
     ]
   },
   {
-    question: 'Anabolic pathways ___________________?',
+    question: 'An inoculated thioglycolate medium cultures tube is clear throughout the tube except for dense growth at the bottom of the tube. What is your conclusion?',
     answers: [
-      { text: 'A. Require energy to synthesize ', correct: true },
-      { text: 'B. Require energy to desynthesize', correct: false },
-      { text: "C. Require's NADPH ", correct: true },
-      { text: 'D. Requires NAD+', correct: false }
+      { text: 'A. The organisms are obligate anaerobes.', correct: true },
+      { text: 'B. The organisms are facultative anaerobes.', correct: false },
+      { text: 'C. The organisms are aerotolerant.', correct: false },
+      { text: 'D. The organisms are obligate aerobes.', correct: false }
     ]
   },
   {
-    question: 'What is required for maintaining the cells energy balance?',
+    question: 'Bacteria that grow in mine drainage at pH 1-2 are most likely which of the following?',
     answers: [
-      { text: 'A. Catabolism and Metabolism', correct: false },
-      { text: 'B. Metabolism and Macrolism', correct: false },
-      { text: 'C. Catalysis', correct: false },
-      { text: 'D. Catabolism and Anabolism', correct: true }
+      { text: 'A. Alkaliphiles', correct: false },
+      { text: 'B. Obligate anaerobes', correct: false },
+      { text: 'C. Neutrophiles', correct: false },
+      { text: 'D. Acidophiles', correct: true }
     ]
   },
   {
-    question: 'What is required for maintaining the cells energy balance?',
+    question: 'Which of the following is the correct order of phases of growth in the growth curve of a batch of culture?',
     answers: [
-      { text: 'Cells require sugar for energy balance', correct: false },
-      { text: 'Cells require high energy unstable bonds', correct: true }
+      { text: 'A. Death/decline > lag > log > stationary', correct: false },
+      { text: 'B. Lag > log > stationary > death/decline', correct: true },
+      { text: 'C. Log > lag > stationary > death/decline', correct: false },
+      { text: 'D. Stationary > log > lag > death/decline', correct: false }
     ]
   },
   {
-    question: 'What is the breaking down of complex molecules?',
+    question: 'Which of these describes organisms that only use a small amount of oxygen?',
     answers: [
-      { text: 'A. Catalysts', correct: false },
-      { text: 'B. Oxidative Phosphorylation', correct: false },
-      { text: 'C. Catabolism', correct: true },
-      { text: 'D. Feedback Inhibition', correct: false },
+      { text: 'A. Facultative anaerobes', correct: false },
+      { text: 'B. Obligate anaerobes', correct: false },
+      { text: 'C. Aerotolerant anaerobes', correct: false },
+      { text: 'D. Microaerophiles', correct: true }
     ]
   },
   {
-    question: 'What is the process that generates ATP?',
+    question: 'What is the best definition of generation time in a bacterium?',
     answers: [
-      { text: 'A. Glycolysis', correct: false },
-      { text: 'B. Fermentation', correct: false },
-      { text: 'C. Oxidative Phosphorylation', correct: true },
-      { text: 'D. Metabolism', correct: false },
+      { text: 'A. Length of time it takes for a population of cells to double', correct: true },
+      { text: 'B. Length of time it takes to reach the log phase', correct: false },
+      { text: 'C. The time is takes to reach stationary phase', correct: false },
+      { text: 'D. The length of time of the exponential phase', correct: false }
     ]
   },
   {
-    question: 'ATP has low energy stable bonds.',
+    question: 'If a culture starts with 50 cells, how many cells will be present after 5 generations with no cell death?',
+    answers: [
+      { text: 'A. 200', correct: false },
+      { text: 'B. 1600', correct: true },
+      { text: 'C. 400', correct: false },
+      { text: 'D. 3200', correct: false }
+    ]
+  },
+  {
+    question: 'This indirect method of estimating the growth of a culture measures ________ by using a spectrophotometer.',
+    answers: [
+      { text: 'A. Opaqueness', correct: false },
+      { text: 'B. Live cells', correct: false },
+      { text: 'C. Dead cells', correct: false },
+      { text: 'D. Turbidity', correct: true }
+    ]
+  },
+  {
+    question: 'This is the process used to prepare a bacterial sample for plate counting.',
+    answers: [
+      { text: 'A. Serial dilution', correct: true },
+      { text: 'B. Most probable number method', correct: false },
+      { text: 'C. Coulter counter', correct: false },
+      { text: 'D. Fluorescence staining', correct: false }
+    ]
+  },
+  {
+    question: 'Bacteria isolated from a hot tub at 60°C are probably which of the following?',
+    answers: [
+      { text: 'A. Psychrophiles', correct: false },
+      { text: 'B. Thermophiles', correct: true },
+      { text: 'C. Mesophiles', correct: false },
+      { text: 'D. Hyperthermophiles', correct: false }
+    ]
+  },
+  {
+    question: 'Which of the following types of medical items requires sterilization?',
+    answers: [
+      { text: 'A. Blood pressure cuffs', correct: false },
+      { text: 'B. Respiratory masks', correct: false },
+      { text: 'C. Bed linens', correct: false },
+      { text: 'D. Needles', correct: true }
+    ]
+  },
+  {
+    question: 'Which of the following is suitable for use on living tissues for microbial control to prevent infection?',
+    answers: [
+      { text: 'A. Antiseptic', correct: true },
+      { text: 'B. Disinfectant', correct: false },
+      { text: 'C. Sterilant', correct: false },
+      { text: 'D. Water', correct: false }
+    ]
+  },
+  {
+    question: 'The decimal reduction time refers to the amount of time it takes to which of the following?',
+    answers: [
+      { text: 'A. Reduce microbial population by 10%', correct: false },
+      { text: 'B. Reduce microbial population by 90%', correct: true },
+      { text: 'C. Reduce microbial population by 0.1%', correct: false },
+      { text: 'D. Completely eliminate a microbial population', correct: false }
+    ]
+  },
+  {
+    question: 'Sanitization leaves objects free of microbes.',
     answers: [
       { text: 'True', correct: false },
       { text: 'False', correct: true },
     ]
   },
   {
-    question: 'A high energy bond can readily be broken to release usable energy.',
+    question: 'The complete removal or killing of all vegetative cells, endospores, and viruses from the targeted item or environment is known as:',
     answers: [
-      { text: 'True', correct: true },
-      { text: 'False', correct: false },
+      { text: 'A. Sterilization', correct: true },
+      { text: 'B. Sanitization', correct: false },
+      { text: 'C. Disinfection', correct: false },
+      { text: 'D. Degerming', correct: false }
     ]
   },
   {
-    question: 'Important Info: Pasteur couldn’t find the agent that causes rabies and speculated about the existence of pathogens too small to be detected by microscopy',
+    question: 'An example of degerming would be:',
     answers: [
-      { text: 'NEXT', correct: true },
+      { text: 'A. Preparing surgical equipment and needles for injection', correct: false },
+      { text: 'B. Handwashing', correct: true },
+      { text: 'C. Commercial dishwashing', correct: false },
+      { text: 'D. Cleaning skin before surgery', correct: false }
     ]
   },
   {
-    question: ' Important Info: In 1884, Charles Chamberland invented a filter with pores smaller than bacteria allowing their removal from contaminated solution. *Ivanosky is the original founder or discoverer of the virus',
+    question: 'Boiling may be ineffective when it comes to:',
     answers: [
-      { text: 'NEXT', correct: true },
+      { text: 'A. Fomites', correct: false },
+      { text: 'B. Gram Negative Organisms', correct: false },
+      { text: 'C. Viruses', correct: false },
+      { text: 'D. Endospores', correct: true }
     ]
   },
   {
-    question: 'What are some characteristics of viruses?',
+    question: 'A scientist discovers that a bacterium she has been studying produces an antimicrobial that kills gram-negative bacteria. She isolates the antimicrobial compound, then chemically converts a chemical side chain to a hydroxyl group. When she tests the antimicrobial properties of this new version, she finds that this antimicrobial drug can now also kill gram-positive bacteria. The new antimicrobial drug with broad-spectrum activity is considered to be which of the following?',
     answers: [
-      { text: 'A. Infections acellular pathogens', correct: false },
-      { text: 'B. Obligate Intrcellular parasites with host and cell type specificity', correct: false },
-      { text: 'C. DNA or RNA genome', correct: false },
-      { text: 'D. Metabolism', correct: true },
+      { text: 'A. Semisynthetic', correct: true },
+      { text: 'B. Natural', correct: false },
+      { text: 'C. Resistant', correct: false },
+      { text: 'D. Synthetic', correct: false }
     ]
   },
   {
-    question: 'Most viruses infect ________ type of cells in a host?',
+    question: 'Which of the following combinations would most likely contribute to the development of a Superinfection?',
     answers: [
-      { text: 'Specific types', correct: true },
-      { text: 'Only cells with a cell wall', correct: false },
-      { text: 'All Types', correct: false },
-      { text: 'Non-Specific types', correct: false },
+      { text: 'A. long-term use of Narrow-spectrum Antimicrobials', correct: false },
+      { text: 'B. short-term use of Narrow-spectrum Antimicrobials', correct: false },
+      { text: 'C. long-term use of broad-spectrum antimicrobials', correct: true },
+      { text: 'D. short-term use of broad-spectrum antimicrobials', correct: false }
+    ]
+  },
+  // bad algo under strings below :(
+  {
+    question: 'Which of the following routes of administration would be appropriate and convenient for home administration of an antimicrobial to treat a systemic infection?',
+    answers: [
+      { text: 'A. Topical', correct: false },
+      { text: 'B. Parenteral', correct: false },
+      { text: 'C. Oral', correct: true },
+      { text: 'D. Intravenous', correct: false }
     ]
   },
   {
-    question: 'Martinez Beijernick concluded that the pathogen was different from bacteria and could replicate and multiply in living plants and called it contagiumvivum fluidum(soluble living germ)',
+    question: 'Which clinical situation would be appropriate for treatment with a narrow-spectrum antimicrobial drug?',
     answers: [
-      { text: 'NEXT', correct: true },
+      { text: 'A. Treatment of a polymicrobial mixed infection in the intestine', correct: false },
+      { text: 'B. Treatment of strep throat caused by culture identified S. pyogenes', correct: true },
+      { text: 'C. Prophylaxis against infection after a surgical procedure', correct: false },
+      { text: 'D. Empiric therapy of pneumonia while waiting for culture results', correct: false }
     ]
   },
   {
-    question: 'What type of characteristic does a virus have?',
+    question: 'Which of the following terms refers to the ability of an antimicrobial drug to harm the target microbe without harming the host?',
     answers: [
-      { text: 'DNA', correct: false },
-      { text: 'DNA or RNA (never both)', correct: true },
-      { text: 'RNA', correct: false },
-      { text: 'DRNA', correct: false },
-    ]
-  },
-  // Add new data for the strings below--->
-  {
-    question: 'This person was the first to develop a lens powerful enough to view microbes. He described these microbes as “animalcules.',
-    answers: [
-      { text: 'A. Robert Koch', correct: false },
-      { text: 'B. Robert Hooke', correct: false },
-      { text: 'C. Francesco Redi', correct: false },
-      { text: 'D. Antonie Van Leeuwenhoek ', correct: true },
+      { text: 'A. Mode of action', correct: false },
+      { text: 'B. Therapeutic level', correct: false },
+      { text: 'C. Spectrum of activity', correct: false },
+      { text: 'D. Selective toxicity', correct: true }
     ]
   },
   {
-    question: 'Fragmentation of septate hyphae results in the formation of:',
+    question: 'Which of the following is not a type of β-lactam antimicrobial?',
     answers: [
-      { text: 'A. Arthroconidia', correct: true },
-      { text: 'B. Chlamydoconidia', correct: false },
-      { text: 'C. Conidiospore', correct: false },
-      { text: 'D. Sporangiospore', correct: false },
+      { text: 'A. Monobactams', correct: false },
+      { text: 'B. Penicillins', correct: false },
+      { text: 'C. Cephalosporins', correct: false },
+      { text: 'D. Glycopeptides', correct: true }
     ]
   },
   {
-    question: 'Cells of prokaryotic organisms lack:',
+    question: 'Which of the following does not bind to the 50S ribosomal subunit?',
     answers: [
-      { text: 'A. Cell membrane', correct: false },
-      { text: 'B. Nucleus', correct: true },
-      { text: 'C. Cell wall', correct: false },
-      { text: 'D. Mitochondria', correct: false },
+      { text: 'A. Tetracyclines', correct: false },
+      { text: 'B. Chloramphenicol', correct: true },
+      { text: 'C. Macrolides', correct: false },
+      { text: 'D. Lincosamides', correct: false }
     ]
   },
   {
-    question: 'Which of the following scientists experimented with raw meat,maggots, and flies in an attempt to disprove the theory of spontaneous generation?',
+    question: 'What are the temperature and time requirements for high-temperature short-time antibiotics?',
     answers: [
-      { text: 'A. Aristotle', correct: false },
-      { text: 'B. Francesco Redi', correct: true },
-      { text: 'C. Lazzaro Spallanzani', correct: false },
-      { text: 'D. Van Leeuwenhoek', correct: false },
+      { text: 'A. 138 degrees Celsuis for 2 or more minutes', correct: false },
+      { text: 'B. 72 degrees Celsius for 15 min', correct: false },
+      { text: 'C. 138 degrees for 2 or more seconds', correct: false },
+      { text: 'D. 72 degrees Celsius for 15 seconds', correct: true }
     ]
   },
   {
-    question: 'What is another name for flukes?',
+    question: 'What defense do bacteria have against beta-lactam drugs?',
     answers: [
-      { text: 'A. Cestodes', correct: false },
-      { text: 'B. Roundworms', correct: false },
-      { text: 'C. Trematodes', correct: true },
-      { text: 'D. Nematodes', correct: false },
+      { text: 'A. Beta-Lactamase', correct: true },
+      { text: 'B. Transpeptidase', correct: false },
+      { text: 'C. Penicillinase', correct: false },
+      { text: 'D. Reverse transcriptase', correct: false }
     ]
   },
   {
-    question: 'Dark objects are visible against a bright background.',
+    question: 'Which of these drugs inhibits the biosynthesis of ergosterols?',
     answers: [
-      { text: 'A. Brightfield microscope', correct: true },
-      { text: 'B. Darkfield microscope', correct: false },
-      { text: 'C. Electron microscope', correct: false },
-      { text: 'D. Fluorescence microscope', correct: false },
+      { text: 'A. Tetracycline', correct: false },
+      { text: 'B. Chloramphenicol', correct: false },
+      { text: 'C. Imidazoles', correct: true },
+      { text: 'D. Cephalosporin', correct: false }
     ]
   },
   {
-    question: 'Histoplasma capsulatum is an example of a dimorphic fungi. What sentence best describes a dimorphic fungi?',
+    question: 'A microbiology student flames her inoculation loop in the lab. This is an example of:',
     answers: [
-      { text: 'A. Nonfilamentous and unicellular', correct: false },
-      { text: 'B. Yeastlike at 37’C and moldlike at 25’C', correct: true },
-      { text: 'C. Moldlike at 37’C and yeastlike at 25’C', correct: false },
-      { text: 'D. Reproduce asexually and sexually through the formation of spores', correct: false },
+      { text: 'A. Degerming', correct: false },
+      { text: 'B. Sanitization', correct: false },
+      { text: 'C. Desiccation', correct: false },
+      { text: 'D. Dry heat sterilization', correct: true }
     ]
   },
   {
-    question: 'What mordant is used in Gram staining?',
+    question: 'This compound was developed by Joseph Lister to control microbial growth.',
     answers: [
-      { text: 'A. Crystal violet', correct: false },
-      { text: 'B. Safranin', correct: false },
-      { text: 'C. Gram’s Iodine', correct: true },
-      { text: 'D. Acid-alcohol', correct: false },
+      { text: 'A. Triclosan', correct: false },
+      { text: 'B. Phenol', correct: true },
+      { text: 'C. Monochloramine', correct: false },
+      { text: 'D. Betadine', correct: false }
     ]
   },
   {
-    question: 'Helminths that have male and female reproductive systems in one animal are called:',
+    question: 'Which filter can filter microbes that are greater than 0.3 um in size?',
     answers: [
-      { text: 'A. Complex', correct: false },
-      { text: 'B. Monoecious', correct: true },
-      { text: 'C. Dioecious', correct: false },
-      { text: 'D. Both B & C', correct: false },
+      { text: 'A. HEPA filter', correct: true },
+      { text: 'B. Membrane filter', correct: false },
+      { text: 'C. Micro filter', correct: false },
+      { text: 'D. Culture filter', correct: false }
     ]
   },
   {
-    question: 'A mass of hyphae is called a:',
+    question: 'Antacids can negatively impact the effect of an antimicrobial. This is an example of:',
     answers: [
-      { text: 'A. Septate hyphae', correct: false },
-      { text: 'B. Coenocytic hyphae', correct: false },
-      { text: 'C. Mycelium', correct: true },
-      { text: 'D. Thallus', correct: false },
+      { text: 'A. Antagonism', correct: true },
+      { text: 'B. Optimum Dosage', correct: false },
+      { text: 'C. Synergism', correct: false },
+      { text: 'D. Narrow spectrum drugs', correct: false }
     ]
   },
   {
-    question: 'WE derive vitamin K from E.coli. Which symbiotic relationship is this in example of?',
+    question: 'Penicillin and other drugs in its class are known for their:',
     answers: [
-      { text: 'A. Mutualism', correct: true },
-      { text: 'B. Parasitism', correct: false },
-      { text: 'C. Commensalism', correct: false },
-      { text: 'D. Neutralism', correct: false },
+      { text: 'A. Penicillinase', correct: false },
+      { text: 'B. Beta-lactamase', correct: false },
+      { text: 'C. Side Chains', correct: false },
+      { text: 'D. Beta-lactam ring', correct: true }
     ]
   },
   {
-    question: 'Which of the following terms refers to a bacterial cell having a single tuft of flagella at one end?',
+    question: 'Which of the following drugs inhibits bacterial RNA synthesis?',
     answers: [
-      { text: 'A. Lophotrichous', correct: true },
-      { text: 'B. Amphitrichous', correct: false },
-      { text: 'C. Monotrichous', correct: false },
-      { text: 'D. Peritrichous', correct: false },
+      { text: 'A. Nalidixic acid', correct: false },
+      { text: 'B. Polymyxin B', correct: false },
+      { text: 'C. Ciprofloxacin', correct: false },
+      { text: 'D. Rifamycin', correct: true }
     ]
   },
   {
-    question: 'Which subgroup is the most diverse, largest, and includes a number of human pathogens?',
+    question: 'Which of the following is not an antifungal drug?',
     answers: [
-      { text: 'A. Epsilonproteobacteria', correct: false },
-      { text: 'B. Gammaproteobacteria', correct: true },
-      { text: 'C. Betaproteobacteria', correct: false },
-      { text: 'D. Alphaproteobacteria', correct: false },
+      { text: 'A. Nikkomycin', correct: false },
+      { text: 'B. Echinocandin', correct: false },
+      { text: 'C. Acyclovir', correct: true },
+      { text: 'D. Imidazoles', correct: false }
     ]
   },
   {
-    question: 'In this type of solution, water is moving out of the cell causing crenation.',
+    question: 'Which of the following drugs could be used to fight an infection with HIV?',
     answers: [
-      { text: 'A. Both B and C', correct: false },
-      { text: 'B. Hypotonic', correct: false },
-      { text: 'C. Isotonic', correct: false },
-      { text: 'D. Hypertonic', correct: true },
-    ]
-  },
-  {
-    question: 'Unicellular fungi are called _________.',
-    answers: [
-      { text: 'A. Yeasts', correct: true },
-      { text: 'B. Molds', correct: false },
-      { text: 'C. Ascomycota', correct: false },
-      { text: 'D. Zygomycota', correct: false },
-    ]
-  },
-  {
-    question: 'Classified as “plant-like” protists',
-    answers: [
-      { text: 'A. Plankton', correct: false },
-      { text: 'B. Protozoans', correct: false },
-      { text: 'C. Algae', correct: true },
-      { text: 'D. Water molds', correct: false },
-    ]
-  },
-  {
-    question: 'These unicellular, eukaryotic parasites inhabit water and soil, have animal-like nutrition, contain complex life cycles that are free-living or parasitic are called:',
-    answers: [
-      { text: 'A. Proteobacteria', correct: false },
-      { text: 'B. Helminths', correct: false },
-      { text: 'C. Cytostome', correct: false },
-      { text: 'D. Protozoa', correct: true },
-    ]
-  },
-  {
-    question: 'Hollow, cylindrical capsids best describes which type of viruses?',
-    answers: [
-      { text: 'A. Helical viruses', correct: true },
-      { text: 'B. Polyhedral viruses', correct: false },
-      { text: 'C. Complex viruses', correct: false },
-      { text: 'D. Virion', correct: false },
-    ]
-  },
-  {
-    question: 'Which of the following do prokaryotic cells possess?',
-    answers: [
-      { text: 'A. Golgi apparatus', correct: false },
-      { text: 'B. Nucleus', correct: false },
-      { text: 'C. Ribosomes', correct: true },
-      { text: 'D. Endoplasmic reticulum', correct: false },
-    ]
-  },
-  {
-    question: 'Which bacteria causes disease that is transmitted to humans, via animal bites and causes infections of the skin and deeper tissues?',
-    answers: [
-      { text: 'A. Pseudomonas', correct: false },
-      { text: 'B. Pasteurella multocida', correct: true },
-      { text: 'C.Haemophilus influenzae', correct: false },
-      { text: 'D. Gammaproteobacteria', correct: false },
-    ]
-  },
-  {
-    question: 'What is incorporated within the binomial nomenclature?',
-    answers: [
-      { text: 'A. Genus and Species', correct: true },
-      { text: 'B. Domain and Kingdom', correct: false },
-      { text: 'C. Family and Genus', correct: false },
-      { text: 'D. Order and Family', correct: false },
-    ]
-  },
-  {
-    question: 'Who is the father of Western Medicine?',
-    answers: [
-      { text: 'A. Thucydides', correct: false },
-      { text: 'B. Marcus Varro', correct: false },
-      { text: 'C. Francesco Redi', correct: false },
-      { text: 'D. Hippocrates', correct: true },
-    ]
-  },
-  {
-    question: 'The plasma membrane of the protozoa is called:',
-    answers: [
-      { text: 'A. Pellicle', correct: false },
-      { text: 'B. Plasmalemma', correct: true },
-      { text: 'C. Cytoplasm', correct: false },
-      { text: 'D. Ectoplasm', correct: false },
-    ]
-  },
-  {
-    question: 'Which statement is false?',
-    answers: [
-      { text: 'A. The three domains are Eukarya, Bacteria, and Archaea', correct: false },
-      { text: 'B. Algae have cellulose cell walls', correct: false },
-      { text: 'C. Eukaryotic microorganisms do not have a nucleus', correct: true },
-      { text: 'D. Viruses are acellular', correct: false },
-    ]
-  },
-  {
-    question: 'What is it called when a wave bounces off of a material?',
-    answers: [
-      { text: 'A. Absorption', correct: false },
-      { text: 'B. Reflection', correct: true },
-      { text: 'C. Frequency', correct: false },
-      { text: 'D. Refraction', correct: false },
-    ]
-  },
-  {
-    question: 'Microorganisms that are only temporarily found in or on the human body (pathogens) are called:',
-    answers: [
-      { text: 'A. Transient microbiota', correct: true },
-      { text: 'B. Microbiome', correct: false },
-      { text: 'C. Resident microbiota', correct: false },
-      { text: 'D. Oligotrophs', correct: false },
-    ]
-  },
-  {
-    question: 'True or False: Live and/or unstained specimen have little contrast with the surrounding medium',
-    answers: [
-      { text: 'True', correct: true },
-      { text: 'False', correct: false },
-    ]
-  },
-  {
-    question: 'True or False: The lower the numerical aperture, the better the resolution',
-    answers: [
-      { text: 'True', correct: false },
-      { text: 'False', correct: true },
-    ]
-  },
-  {
-    question: 'This organelle functions in packaging and sorting proteins.',
-    answers: [
-      { text: 'A. Nucleus', correct: false },
-      { text: 'B. Golgi Apparatus', correct: true },
-      { text: 'C. Rough ER', correct: false },
-      { text: 'D. Lysosomes', correct: false },
-    ]
-  },
-  {
-    question: '“False feet” cytoplasmic extensions that attach to the cell surface used by protozoa for locomotion are named:',
-    answers: [
-      { text: 'A. Cilia', correct: false },
-      { text: 'B. Flagella', correct: false },
-      { text: 'C. Fornicata', correct: false },
-      { text: 'D. Pseudopodia', correct: true },
-    ]
-  },
-  {
-    question: 'A cluster of cocci would be referred to as:',
-    answers: [
-      { text: 'A. Staphylococcus', correct: true },
-      { text: 'B. Diplococcus', correct: false },
-      { text: 'C. Streptococcus', correct: false },
-      { text: 'D. Streptococcus', correct: false },
-    ]
-  },
-  {
-    question: 'These cell structures are not necessary for survival but may contain antibiotic resistance:',
-    answers: [
-      { text: 'A. Endospores', correct: false },
-      { text: 'B. Plasmids', correct: true },
-      { text: 'C. Ribosomes', correct: false },
-      { text: 'D. Inclusions', correct: false },
-    ]
-  },
-  {
-    question: 'The symbiotic relationship that describes population A as being harmed and population B as being unaffected is:',
-    answers: [
-      { text: 'A. Mutualism', correct: false },
-      { text: 'B. Parasitism', correct: false },
-      { text: 'C. Amensalism', correct: true },
-      { text: 'D. Commensalism', correct: false },
-    ]
-  },
-  {
-    question: 'This mode of transport does not require energy but requires a transporter protein:',
-    answers: [
-      { text: 'A. Simple diffusion', correct: false },
-      { text: 'B. Facilitated diffusion', correct: true },
-      { text: 'C. Active transport', correct: false },
-      { text: 'D. Group translocation', correct: false },
-    ]
-  },
-  {
-    question: 'Which bacteria causes dysentery?',
-    answers: [
-      { text: 'A. Borrelia', correct: false },
-      { text: 'B. Pseudomonas', correct: false },
-      { text: 'C. E.coli', correct: false },
-      { text: 'D. Shigella', correct: true },
-    ]
-  },
-  {
-    question: 'The order of life cycle in helminths is:',
-    answers: [
-      { text: 'A. Egg > larvae > trophozoite', correct: false },
-      { text: 'B. Larvae > adult > egg', correct: false },
-      { text: 'C. Adult > larvae > egg', correct: false },
-      { text: 'D. Egg > larvae > adult', correct: true },
-    ]
-  },
-  {
-    question: 'All of the following belong to the endomembrane system except:',
-    answers: [
-      { text: 'A. Endoplasmic reticulum', correct: false },
-      { text: 'B. Nucleus', correct: true },
-      { text: 'C. Golgi apparatus', correct: false },
-      { text: 'D. Lysosomes', correct: false },
-    ]
-  },
-  {
-    question: 'Where can protein synthesis occur in the cell?',
-    answers: [
-      { text: 'A. Nucleus', correct: false },
-      { text: 'B. Smooth ER', correct: false },
-      { text: 'C. Rough ER', correct: true },
-      { text: 'D. Golgi Apparatus', correct: false },
+      { text: 'A. Vancomycin', correct: false },
+      { text: 'B. Artemisinin', correct: false },
+      { text: 'C. ART', correct: true },
+      { text: 'D. Zanamivir', correct: false }
     ]
   },{
-    question: 'This organelle is the “powerhouse of the cell” and is involved in cellular respiration.',
+    question: 'If you are given 9 cells to begin with and allow them to divide 4 times. How many cells have been created?',
     answers: [
-      { text: 'A. Nucleus', correct: false },
-      { text: 'B. Chloroplasts', correct: false },
-      { text: 'C. Mitochondria', correct: true },
-      { text: 'D. Golgi apparatus', correct: false },
+      { text: 'A. 256', correct: false },
+      { text: 'B. 2,048', correct: false },
+      { text: 'C. 144', correct: false },
+      { text: 'D. 72', correct: true }
     ]
-  },{
-    question: 'The plasma membrane is known as a _______. (Select all that apply)',
+  },
+  {
+    question: 'In a bacterial sample, what is considered a statistically valid number of colonies.',
     answers: [
-      { text: 'A. Phospholipid Bilayer', correct: true },
-      { text: 'B. Fluid mosaic', correct: true },
-      { text: 'C. Duo membrane', correct: false },
-      { text: 'D. Cytoskeleton', correct: false },
+      { text: 'A. 3-30', correct: false },
+      { text: 'B. 50-100', correct: false },
+      { text: 'C. 100-500', correct: false },
+      { text: 'D. 30-300', correct: true }
     ]
-  },{
-    question: 'The term “selectively permeable” refers to the plasma membrane’s ability to:',
+  },
+  {
+    question: 'Which is the most favorable pH for the growth of an organism',
     answers: [
-      { text: 'A. Change shape as needed', correct: false },
-      { text: 'B. Absorb nutrients', correct: false },
-      { text: 'C. Expel objects from the cell', correct: false },
-      { text: 'D. Regulate what enters and leaves a cell', correct: true },
+      { text: 'A. optimum growth pH', correct: true },
+      { text: 'B. minimum growth pH', correct: false },
+      { text: 'C. maximum growth pH', correct: false },
+      { text: 'D. narrow growth pH', correct: false }
     ]
-  },{
-    question: 'Fungi cell walls are primarily made up of:',
+  },
+  {
+    question: 'Which produces the highest drug concentrations in the body?',
     answers: [
-      { text: 'A. Chitin', correct: true },
-      { text: 'B. Peptidoglycan', correct: false },
-      { text: 'C. Glucan', correct: false },
-      { text: 'D. Cellulose', correct: false },
+      { text: 'A. Intravenous', correct: true },
+      { text: 'B. Topical', correct: false },
+      { text: 'C. Orally', correct: false },
+      { text: 'D. Intramuscular', correct: false }
     ]
-  },{
-    question: 'This method of transport is unique to prokaryotes:',
+  },
+  {
+    question: 'Discussion: Describe the difference between anabolism and catabolism.',
     answers: [
-      { text: 'A. Active transport', correct: false },
-      { text: 'B. Facilitated diffusion', correct: false },
-      { text: 'C. Group translocation', correct: true },
-      { text: 'D. Passive transport', correct: false },
+      { text: 'Next', correct: true }
     ]
-  },{
-    question: 'When an arthropod carries a pathogen on the outside of its body and transmits it by physical contact, what type of transmission is it?',
+  },
+  {
+    question: 'Discussion: What happens to an enzyme if the temperature or pH are too high? Hint: what’s happening to the protein albumin when you make scrambled eggs?',
     answers: [
-      { text: 'A. Biological transmission', correct: false },
-      { text: 'B. Mechanical transmission', correct: true },
-      { text: 'C. Droplet transmission', correct: false },
-      { text: 'D. Vertical transmission', correct: false },
+      { text: 'Next', correct: true }
     ]
-  },{
-    question: 'Staphylococcus epidermidis uses the dead cells of the human skin as nutrients. This is an example of:',
+  },
+  {
+    question: 'Discussion: There are important derivatives of B vitamins that are used in cellular metabolism. List them and what they are a derivative of specifically.',
     answers: [
-      { text: 'A. Neutralism', correct: false },
-      { text: 'B. Parasitism', correct: false },
-      { text: 'C. Commensalism', correct: true },
-      { text: 'D. Amensalism', correct: false },
+      { text: 'Next', correct: true }
+    ]
+  },
+  {
+    question: 'Discussion: What is the process that generates ATP? Explain why it is so important.',
+    answers: [
+      { text: 'Next', correct: true }
+    ]
+  },
+  {
+    question: 'Discussion: Describe the characteristics of a catalyst that works in a biological setting',
+    answers: [
+      { text: 'Next', correct: true }
+    ]
+  },
+  {
+    question: 'Discussion: What are the components of an enzyme? Draw a picture with the binding sites',
+    answers: [
+      { text: 'Next', correct: true }
+    ]
+  },
+  {
+    question: 'Discussion: What is the difference between competitive inhibitors and noncompetitive inhibitors? Draw pictures of both. Challenge: Why is this important in your body?',
+    answers: [
+      { text: 'Next', correct: true }
+    ]
+  },
+  {
+    question: 'Discussion: Explain the process and list the products of glycolysis, Kreb’s Cycle, and electron transport chain',
+    answers: [
+      { text: 'Next', correct: true }
+    ]
+  },
+  {
+    question: 'Discussion: What is the significance of substrate level phosphorylation? ',
+    answers: [
+      { text: 'Next', correct: true }
+    ]
+  },
+  {
+    question: 'Discussion: Explain the difference between aerobic and anaerobic respiration',
+    answers: [
+      { text: 'Next', correct: true }
+    ]
+  },
+  {
+    question: 'Discussion: Explain the two types of fermentation',
+    answers: [
+      { text: 'Next', correct: true }
+    ]
+  },
+  {
+    question: 'Discussion: What are the factors that affect enzyme activity?',
+    answers: [
+      { text: 'Next', correct: true }
     ]
   },
 ]
